@@ -1,1 +1,1 @@
-My CV (WIP)
+My CV website (work in progress).
