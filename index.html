@@ -1,36 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-body {
-  color: white;
-  background-color: #1f1f1f;
-  font-family: Tahoma, sans-serif;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Resume</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      width: 100%;
+      max-width: 800px;
+      text-align: center;
+      background-color: #fff;
+      padding: 30px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #333;
+    }
+    h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #111;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.5em;
+      font-weight: normal;
+      color: #777;
+      margin-bottom: 20px;
+    }
+    section {
+      margin: 20px 0;
+    }
+    .skills, .contact {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .skills div, .contact div {
+      flex-basis: 45%;
+      margin: 10px 0;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    /* Brutalist inspired, border-based design */
+    .container {
+      border: 5px solid #111;
+    }
+    h1, h2 {
+      border-bottom: 3px solid #111;
+      padding-bottom: 5px;
+    }
+    /* Monochromatic Color Scheme */
+    body, .container, .skills div, .contact div {
+      background-color: #e0e0e0;
+      color: #333;
+    }
+  </style>
 </head>
 <body>
-  <h1>NOELLE ROBERTSON</h1>
-  <p>Technology Support Specialist || (ISC)2 CC, Security+</p>
-  <h2>PROFESSIONAL SUMMARY</h2>
-  <p></p>
-  <h2>CERTIFICATIONS</h2>
-  <p>
-    2024: CompTIA Security+ <br>
-    2024: Minnesota State CCDC Winning Team <br>
-    2023: (ISC)2 Certified in Cybersecurity <br>
-  </p>
-  <h2>EDUCATION</h2>
-  <p>
-    2024: A.A.S. Cyber Security, Pine Technical & Community College, Pine City, MN <br>
-    2017: B.A. Interdisciplinary Visual Arts, University of Washington, Seattle, WA  <br>
-  </p>
-  <h2>EXPERIENCE</h2>
-  <p></p>
-  <h2>VOLUNTEER WORK</h2>
-  <p>2024 - Present: Citizen Archivist, U.S. National Archives & Records Administration, Remote
-  <br>
-  2023 - Present: English Tutor, ENGin, Remote <br>
-  2013 - 2020: Maintenance Crew/Oiler/Docent, Steamship Virginia V, Seattle, WA</p>
+  <div class="container">
+    <!-- Picture Section -->
+    <img src="your-picture.jpg" alt="Your Picture" class="profile-pic">
+    
+    <!-- Header -->
+    <h1>Your Name</h1>
+    <h2>Your Title / Profession</h2>
+    
+    <!-- About Section -->
+    <section id="about">
+      <p>Write a short bio here. Explain who you are, what you do, and what makes you unique. Keep it concise and engaging.</p>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>Java</div>
+        <div>Python</div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact">
+        <div>Email: your-email@example.com</div>
+        <div>Phone: +123 456 7890</div>
+        <div>LinkedIn</div>
+        <div>GitHub</div>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
